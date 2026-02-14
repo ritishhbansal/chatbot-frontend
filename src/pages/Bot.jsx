@@ -124,7 +124,6 @@ const [darkMode, setDarkMode] = useState(true);
       </div>
     </header>
 
-    {/* CHAT AREA */}
     <main className="flex-1 overflow-y-auto pt-24 pb-28 flex justify-center">
       <div className="w-full max-w-4xl px-4 flex flex-col space-y-4">
 
@@ -192,5 +191,6 @@ const [darkMode, setDarkMode] = useState(true);
 }
 
 export default Bot;
+
 
 
