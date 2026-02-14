@@ -13,14 +13,12 @@ const Home = () => {
           🤖 AI Chatbot Platform
         </h1>
 
-        {/* Subtitle */}
         <p className="text-gray-400 text-lg md:text-xl mb-10 leading-relaxed">
           Experience intelligent conversations powered by modern AI.
           <br />
           Ask questions, get instant responses, and explore the future of chat automation.
         </p>
 
-        {/* Feature Highlights */}
         <div className="grid md:grid-cols-3 gap-6 mb-12">
 
           <div className="bg-cardbg backdrop-blur-lg border border-white/10 rounded-xl p-6">
@@ -77,4 +75,5 @@ const Home = () => {
 };
 
 export default Home;
+
 
