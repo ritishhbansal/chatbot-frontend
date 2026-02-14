@@ -39,13 +39,11 @@ const VerifyEmail = () => {
   return (
     <div className="min-h-screen bg-darkbg flex items-center justify-center px-6 relative overflow-hidden">
 
-      {/* Background Glow */}
       <div className="absolute w-96 h-96 bg-primary/30 blur-3xl rounded-full top-10 left-10"></div>
       <div className="absolute w-96 h-96 bg-secondary/20 blur-3xl rounded-full bottom-10 right-10"></div>
 
       <div className="w-full max-w-md bg-cardbg backdrop-blur-lg border border-white/10 rounded-2xl p-8 shadow-2xl z-10">
 
-        {/* Title */}
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-white">
             📧 Verify Email
@@ -98,3 +96,4 @@ const VerifyEmail = () => {
 };
 
 export default VerifyEmail;
+
