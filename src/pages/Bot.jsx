@@ -96,7 +96,6 @@ const [darkMode, setDarkMode] = useState(true);
   return (
   <div className={`${darkMode ? "bg-[#0f172a] text-white" : "bg-gray-100 text-gray-900"} transition-all duration-500 flex flex-col min-h-screen`}>
 
-    {/* NAVBAR */}
     <header className={`${darkMode ? "bg-[#111827] border-gray-700" : "bg-white border-gray-300"} fixed top-0 left-0 w-full border-b backdrop-blur-lg z-10`}>
       <div className="container mx-auto flex justify-between items-center px-6 py-4">
 
@@ -194,3 +193,4 @@ const [darkMode, setDarkMode] = useState(true);
 }
 
 export default Bot;
+
