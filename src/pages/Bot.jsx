@@ -105,7 +105,6 @@ const [darkMode, setDarkMode] = useState(true);
 
         <div className="flex items-center gap-4">
 
-          {/* Theme Toggle */}
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="px-3 py-1 rounded-lg text-sm font-medium bg-indigo-600 hover:bg-indigo-700 transition"
@@ -193,4 +192,5 @@ const [darkMode, setDarkMode] = useState(true);
 }
 
 export default Bot;
+
 
