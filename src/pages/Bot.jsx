@@ -159,7 +159,6 @@ const [darkMode, setDarkMode] = useState(true);
       </div>
     </main>
 
-    {/* INPUT SECTION */}
     <footer className={`${darkMode ? "bg-[#111827] border-gray-700" : "bg-white border-gray-300"} fixed bottom-0 left-0 w-full border-t backdrop-blur-lg`}>
       <div className="max-w-4xl mx-auto px-4 py-4">
 
@@ -191,6 +190,7 @@ const [darkMode, setDarkMode] = useState(true);
 }
 
 export default Bot;
+
 
 
 
