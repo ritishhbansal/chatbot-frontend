@@ -4,13 +4,11 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-darkbg relative overflow-hidden flex items-center justify-center px-6">
 
-      {/* Background Glow Effects */}
       <div className="absolute w-[500px] h-[500px] bg-primary/30 blur-3xl rounded-full top-[-100px] left-[-100px]"></div>
       <div className="absolute w-[400px] h-[400px] bg-secondary/20 blur-3xl rounded-full bottom-[-100px] right-[-100px]"></div>
 
       <div className="max-w-4xl text-center z-10">
 
-        {/* Logo */}
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
           🤖 AI Chatbot Platform
         </h1>
@@ -79,3 +77,4 @@ const Home = () => {
 };
 
 export default Home;
+
