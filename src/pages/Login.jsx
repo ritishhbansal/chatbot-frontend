@@ -88,7 +88,6 @@ const handleSubmit = async (e) => {
     required
   />
 
-  {/* Forgot Password Link */}
   <div className="flex justify-end text-sm">
     <span
       onClick={() => navigate("/verifyemail")}
@@ -124,3 +123,4 @@ const handleSubmit = async (e) => {
 };
 
 export default Login;
+
