@@ -44,10 +44,8 @@ const ResetPassword = () => {
       if (res.status === 200) {
         localStorage.removeItem("resetEmail");
 
-        // ✅ Show success briefly
         setMessage("Password reset successful! Redirecting...");
 
-        // ✅ Redirect after 1.5 seconds
         setTimeout(() => {
           navigate("/login");
         }, 1500);
@@ -122,3 +120,4 @@ const ResetPassword = () => {
 };
 
 export default ResetPassword;
+
